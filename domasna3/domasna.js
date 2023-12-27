@@ -2,11 +2,11 @@
 
 const { g2k, k2g } = require('./vaga.js');
 
-console.log("Grami vo kilogrami:")
+console.log("Grami vo kilogrami:");
 console.log("8150 g = " + g2k(8150) + " kg");
 console.log("4800 g = " + g2k(4800) + " kg");
 
-console.log("Kilogrami vo grami:")
+console.log("Kilogrami vo grami:");
 console.log("7.2 kg = " + k2g(7.2) + " g");
 console.log("12 kg = " + k2g(12) + " g\n");
 
@@ -14,27 +14,27 @@ console.log("12 kg = " + k2g(12) + " g\n");
 
 const { e2d, e2$, d2$, d2e, $2e, $2d } = require('./valuta.js');
 
-console.log("Evra vo denari:")
+console.log("Evra vo denari:");
 console.log("3 euro = " + e2d(3).toFixed(2) + " denari");
 console.log("20 euro = " + e2d(20).toFixed(2) + " denari");
 
-console.log("Evra vo dolari:")
+console.log("Evra vo dolari:");
 console.log("3 euro = " + e2$(3).toFixed(2) + " dollar");
 console.log("20 euro = " + e2$(20).toFixed(2) + " dollar");
 
-console.log("Denari vo dolari:")
+console.log("Denari vo dolari:");
 console.log("500 denari = " + d2$(500).toFixed(2) + " dollar");
 console.log("3000 denari = " + d2$(3000).toFixed(2) + " dollar");
 
-console.log("Denari vo evra:")
+console.log("Denari vo evra:");
 console.log("500 denari = " + d2e(500).toFixed(2) + " euro");
 console.log("3000 denari = " + d2e(3000).toFixed(2) + " euro");
 
-console.log("Dolari vo evra:")
+console.log("Dolari vo evra:");
 console.log("3 dollar = " + $2e(3).toFixed(2) + " euro");
 console.log("20 dollar = " + $2e(20).toFixed(2) + " euro");
 
-console.log("Dolari vo denari:")
+console.log("Dolari vo denari:");
 console.log("3 dollar = " + $2d(3).toFixed(2) + " denari");
 console.log("20 dollar = " + $2d(20).toFixed(2) + " denari\n");
 
